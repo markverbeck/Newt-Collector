@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Newt Collector!</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Mono|Rye" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	
+
+</head>
+<body>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="assets/javascript/game.js"></script>
+
+<div class="container">
+  <div class="jumbotron text-center">
+    <h1>Newt Collector!!</h1> 
+    <p>Pull up your britches and put on your boots!  We're going salamander huntin'..! </p> 
+    <button id="play" type="button" onclick="playSong()" class="btn btn-default">Play</button>
+    <button id="pause" type="button" onclick="pauseSong()" class="btn btn-default">Pause</button>
+  </div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-4 text-center marginBottom">
+		<img class="img-responsive img " src="https://i.pinimg.com/564x/55/57/49/55574940a372e34bd7d99d505f356c4c.jpg">
+			
+		</div>
+
+		<div class="col-lg-2">
+			<audio id="winner" src="assets/images/win.wav"></audio>
+			<audio id="loser" src="assets/images/lose.wav"></audio>
+			<audio id="theme" src="assets/images/AlligatorMash.m4a"></audio>
+		</div>
+
+		<div class="col-lg-4 backgroundImg font fontSize marginBottom ">
+			<p>
+				Hey you!  Get your butt over here!  Where you been?...  Laying around all day in the shade!??  Now now we won't have any lazy bones sitting around this here farm.. No sir!  Ya got to earn your keep!
+			</p>
+			<p>
+				Now pay attention now and listen to what your going to do..
+				My lovely wife, Mrs Mary May of Tupelo Mississippi, needs her some newts for her salamander stew.... <u>YOU</u> are going to bring her back the exact amount she asks ya for..No more..No less. <u>She sure hates it when there too much newt in her stew, so you better get it right!!</u> Or else your sleeping with the chickens!
+			</p>
+			<p>
+				When Mary May tells you how many newts to collect, <u>start clicking on the newts</u> to catch them.  Each newt will add a differen't amount to your total, don't get too many!!
+			</p>
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-4 text-center backgroundImg marginBottom1 font">
+		<h2 class="boldUnderline">Newts Needed:</h2>
+		
+		<h2 id="nNeeded"></h2>
+			
+
+		</div>
+		<div class="col-lg-2"></div>
+		
+		<div class="col-lg-4 text-center backgroundImg marginBottom1 font">
+		<h2 class="boldUnderline">Newts Collected:</h2>
+		
+		<h2 id="nCollected"></h2>
+			
+		</div>
+	</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-lg-1"></div>
+		<div class="col-lg-4 text-center marginBottom">
+		<img id="clickPic1" class="img-responsive img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Neurergus_Kaiseri.jpg/220px-Neurergus_Kaiseri.jpg">
+		<img id="clickPic2" class="img-responsive img-thumbnail rNumber" src="http://d3i3l3kraiqpym.cloudfront.net/wp-content/uploads/2016/05/31181808/800px-Eastern-red-spotted-newt-jpg.jpg">
+		<img id="clickPic3" class="img-responsive img-thumbnail rNumber" src="http://rivista-cdn.reptilesmagazine.com/calif-red-bellied-newt.jpg?ver=1406755105">
+		<img id="clickPic4" class="img-responsive img-thumbnail rNumber" src="http://www.worldanimalfoundation.org/i/Newt.jpg">
+			
+		</div>
+		<div class="col-lg-2"></div>
+
+		<div class="col-lg-4 backgroundImg font ">
+			<h2 class="boldUnderline">Wins:</h2>
+			<h2 id="win"></h2>
+			<br>
+			<h2 class="boldUnderline">Losses:</h2>
+			<h2 id="loss"></h2>
+
+		</div>
+	</div>
+</div>
+
+</body>
+
+</html>
