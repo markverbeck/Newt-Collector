@@ -1,0 +1,62 @@
+.img-thumbnail {
+	width: 49%;
+}
+
+.img{
+	
+    width: 100%;
+    border:solid black 2px;
+}
+
+body{
+	background-image: url("green_cup.png");
+	
+}
+
+.jumbotron{
+	background-image: url("https://images.pexels.com/photos/301378/pexels-photo-301378.jpeg?h=350&auto=compress&cs=tinysrgb");
+	
+	border: black solid 5px;
+	font-family: 'Rye', cursive;
+	color: white;
+}
+
+.backgroundImg{
+	background-image: url(https://thumb9.shutterstock.com/mosaic_250/892180/563504482/stock-photo-old-empty-paper-background-paper-texture-563504482.jpg);
+ 	
+    border: solid black 2px;
+}
+
+.marginBottom {
+	margin-bottom: 2%;
+}
+
+.marginBottom1 {
+	margin-bottom: 2%;
+}
+
+.font{
+	font-family: 'Roboto Mono', monospace;
+}
+
+.boldUnderline{
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+
+.fontSize {
+	font-size: 99%;
+    padding: 2%;
+    line-height: 144%;
+}
+
+.marginRL{
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+
+
+
+
