@@ -17,7 +17,9 @@ var pauseSong = function(){
 	document.getElementById("theme").pause();
 }
 
-
+var card = function(){
+	document.getElementById("card").play();
+}
 
 
 
@@ -29,25 +31,31 @@ $(document).ready(function(){
 	$("#nNeeded").html(newtNeeded);
 
 	$("#clickPic1").on("click", function(){
+		card();
 		totalNewt = (totalNewt + newtPic1);
 		$("#nCollected").html(totalNewt);
 		winLose(totalNewt, newtNeeded);
 
+
 	});
 	
 	$("#clickPic2").on("click", function(){
+		card();
 		totalNewt = (totalNewt + newtPic2);
 		$("#nCollected").html(totalNewt);
 		winLose(totalNewt, newtNeeded);
+
 	});
 
 	$("#clickPic3").on("click", function(){
+		card();
 		totalNewt = (totalNewt + newtPic3);
 		$("#nCollected").html(totalNewt);
 		winLose(totalNewt, newtNeeded);
 	});
 
 	$("#clickPic4").on("click", function(){
+		card();
 		totalNewt = (totalNewt + newtPic4);
 		$("#nCollected").html(totalNewt);
 		winLose(totalNewt, newtNeeded);
